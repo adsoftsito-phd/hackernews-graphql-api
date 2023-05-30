@@ -58,6 +58,6 @@ jobs:
       uses: okteto/pipeline@2.7.0
       with:
          name: hackernews-graphql-api
-         timeout: 5m
+         timeout: 10m
          #variables: "DEV_USER=${{ secrets.DEV_USER }}"
 
