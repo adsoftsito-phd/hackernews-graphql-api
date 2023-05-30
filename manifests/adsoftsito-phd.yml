@@ -17,7 +17,7 @@ spec:
         name: adsoftsito-phd
         envFrom:
         - configMapRef:
-          name: adsoftsito-phd-config
+            name: adsoftsito-phd-config
         livenessProbe:
           httpGet:
             path: /ht/
